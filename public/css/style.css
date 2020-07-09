@@ -44,15 +44,8 @@ li {
     padding: auto;
   }
 
-  /* .jumbotron {
-    background-image: url("https://humorbible.com/wp-content/uploads/2018/09/feet-.jpg");
-    width: fit-content; 
-    height: fit-content;
-  } */
-
   .jumbotron{
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXEAAACICAMAAAAmsyvzAAAAnFBMVEX/aAH/////ZAD/YAD/XwD/XAD/YwD/7eP+aAH//v//6N3+8en/9e7/9O/+UQD/4tb//Pn/VwD/q4j/2Mb/jVj/iE3/k2D/zrj/fTX+wKT/fTr/bxr/+vb/TAD/ciH/0sD+tpf+xq//mnD/ciz+dyb+u5v+bg3/h0n/lmb+onv+dyn+p4L+sZD+3c7+nGz+oXP/p3n/u6P/2c3+mWLck3hAAAADiklEQVR4nO3Ya3faOBCAYSxZNjE3gzE3syaUcMeh2f7//7Yzsum2abLtfmiT075PzjEjIXJgPEyktFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgP+jLT/4pawNzX8l3diW/WYyjL6dw4+xo2S6M68Xuimqzih6NllUyf3zOfwYkwdBsA5fX2DvZUHxwtzu576x31b0QZKXudcXhHNZsHlh7uHnvrHfkvHXJAjG2iFMPfQPdWwic8u4aUb1ErfVjMswss2c+Teyln7zIuMe8tIZSW73Kk3F7cZ7K38N7X5hW+FhbFtRmH/YO9Nk3EaTY+40q9YcjlOZK03Yuo4mfs6dzqNxHc1Gl3oOX7O51HaQLKwp04szxUpG6TnU/J6H6yC4DA89mershz7j7rjUUS5345wG3kM40odeHplorVG8iIyZNtFbf753J8rrtAUL2wmCg4nr0bYvaa4WElXj2wLtIMWxGeVu1ETB7nJb4aZ1sCzD1S166w/47lhNsVb54CSXJ917bAea2q4kO5NgJDeiN5H8Z36vInUdX+VSWX3dYxrcBQ8yHORS+lO9Q6ur7nn2WuDZd3Y/fySjFbzua0UeJHFbyX/cz5tEa/+IdUF2lJvQ0RrXdB77ax/dBde+FvVHXXGvr9QVs37SrN335Xd0h2/9Ed8Zo3vCR3eWq7blJy1SZ2azWbtbt4VHXbBcduLOQPv4xTcU/03QnPq9is71enGSVHon2kMp7dRHToucjH/NZ/zgtEyPmvG6xtPU13ggZTzXTjEffppOt5rdg5b/X/qVmPhIczr20TnL5trax1rZiWQ83ZHxF5iDr/FbxtdavXPt46V07kR7fC6X9EmeW9037X0592cljdb+O6ENSNvLvK3bGE3zWZ/QjN+R8We+6Cq6C1m7z3sVaeKDvd/01TNpqTV+anYuvdJO6qhT2HG9TYzbYbOTyYbTJuNBYEv+JfklM4mTziG8Sp9+TJJ46wrNVXcUuipJpsNtkiRlrjVfLdw5GSSncCyjdFVGspGvtLYLI4elKpV6L0w7nAzSoHNvwsvfWbYLL6tVdvpUfP9t/FGMMZ8DPcLbcrZpy5kziuQwbyNrjYk2i42c3eXY7uc3szLU/zHq0iLUV0e22NyictOSDaF1zskCF7oWZyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwHv0D5aKNGZWrpZrAAAAAElFTkSuQmCC");
-    /* background-size: cover; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

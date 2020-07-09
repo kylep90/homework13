@@ -24,7 +24,6 @@ var orm = {
 
     queryString += " SET ";
     queryString += "devoured = true";
-    // queryString += objToSql(objColVals);
     queryString += " WHERE ";
     queryString += condition;
 

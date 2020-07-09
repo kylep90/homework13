@@ -1,45 +1,57 @@
-<h1>Burgers</h1>
+<div class="card-container" >
 
-<div>
-  <h2>All the Burgers you want to eat</h2>
 
-  <ul>
-    {{#each burgers}}
-    {{#unless this.devoured}}
-    <p>{{this.id}}. {{this.burger_name}}</p>
-    <button class="devourBurger" value={{this.id}}>Devour</button>
-    {{/unless}}
-    {{/each}}
-  </ul>
+  <div class="card" id="card-left" style="width: 18rem;">
+    <img src="https://www.pngkit.com/png/full/37-370620_cartoon-hamburger-png-cheese-burger-clip-art.png"
+      class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Burgers ready to eat...</h5>
+      <p class="card-text">
+      <ul>
+        {{#each burgers}}
+        {{#unless this.devoured}}
+        <p>{{this.id}}. {{this.burger_name}}</p>
+        <button class="devourBurger" value={{this.id}}>Devour</button>
+        {{/unless}}
+        {{/each}}
+      </ul>
+      </p>
+    </div>
+  </div>
+
+  <div class="card" id="card-centre" style="width: 18rem;">
+    <img
+      src="https://media1.s-nbcnews.com/j/newscms/2019_24/1448105/good-burger-pop-up-today-main-190613_9868e15230798541052f79dc5e4c8d45.social_share_1200x630_center.jpg"
+      class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Welcome</h5>
+      <p class="card-text">"Welcome to GoodBurger, home of the GoodBurger, can I take your order?"</p>
+      <h2>Create a Burger:</h2>
+      <form class="create-form">
+
+        <div class="form-group">
+          {{!-- <label for="ca">Burger Name:</label> --}}
+          <input type="text" id="ca" name="name">
+        </div>
+        <button type="submit">Add Burger</button>
+        {{!-- <a href="#" type="submit" class="btn btn-primary">Add burger</a> --}}
+    </div>
+  </div>
+
+  <div class="card" id="card-right" style="width: 18rem;">
+    <img src="https://ak.picdn.net/shutterstock/videos/19128385/thumb/5.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Burgers you have eaten... #greedy!</h5>
+      <p class="card-text">
+      <ul>
+        {{#each burgers}}
+        {{#if this.devoured}}
+        <p>{{this.id}}. {{this.burger_name}}</p>
+        {{/if}}
+        {{/each}}
+      </ul>
+      </p>
+    </div>
+  </div>
 
 </div>
-<h2>All the Burgers you have devoured:</h2>
-
-<ul>
-  {{#each burgers}}
-  {{#if this.devoured}}
-  <p>{{this.id}}. {{this.burger_name}}</p>
-  {{/if}}
-  {{/each}}
-</ul>
-
-
-<h2>Create a Burger</h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
-  </div>
-
-  <div class="form-group">
-    <label for="devour">Devoured?</label><br>
-
-
-    {{!-- <input type="radio" name="devour" value="1" checked> Eat Now!<br>
-    <input type="radio" name="devour" value="0"> Devour Later! --}}
-
-  </div>
-
-  <button type="submit">Add Burger</button>
-</form>
